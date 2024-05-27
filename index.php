@@ -3,7 +3,7 @@
 function getResultById($id, $key) {
     $url = "http://api.sctg.xyz/res.php?key=" . $key . "|onlyxevil&action=get&id=" . $id;
     $rd = rand(0,999);
-$us = "Mozilla/5.0 (Linux; Android ) AppleWebKit/501 (KHTML, like Gecko) Chrome Mobile Safari Brave/".$rd."";
+$us = "Mozilla/5.0 (Linux; Android ) AppleWebKit/501 (KHTML, like Gecko) Chrome Mobile Safari Brave/8988";
 
     $ch = curl_init();     
     curl_setopt($ch, CURLOPT_URL, $url);
