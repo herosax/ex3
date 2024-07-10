@@ -24,7 +24,7 @@ function get($url){
 }
 $result = get("https://raw.githubusercontent.com/Todorokix/api/main/user.txt");
 $array = explode("\n", $result);
-$usern = $array[1];
+$usern = $array[2];
 echo " $usern \n";
 
 function http_get($url){
